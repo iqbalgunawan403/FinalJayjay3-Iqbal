@@ -24,8 +24,9 @@ public class WebStep {
     }
 
     @And("user click button login")
-    public void userClickButtonLogin() {
+    public void userClickButtonLogin() throws InterruptedException {
         webPage.buttonLogin();
+        Thread.sleep(2000);
     }
 
     @And("user input username {string}")
@@ -39,8 +40,9 @@ public class WebStep {
     }
 
     @And("user click login button")
-    public void userClickLoginButton() {
+    public void userClickLoginButton() throws InterruptedException {
         webPage.inputLogin();
+        Thread.sleep(2000);
     }
 
     @And("user will see icon name of user")
