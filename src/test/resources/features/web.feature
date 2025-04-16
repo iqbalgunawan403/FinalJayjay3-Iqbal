@@ -4,8 +4,8 @@ Feature: Test Automation Web
   Scenario: Test Login normal web
     Given : open web login page
     And user click button login
-    And user input username "iqbalgunawan403@gmail.com"
-    And user input password "14Februari"
+    And user input username "admin"
+    And user input password "admin"
     And user click login button
     And user will see icon name of user
 
@@ -23,8 +23,8 @@ Feature: Test Automation Web
   Scenario: Test next page and previous normal web
     Given : open web login page
     And user click button login
-    And user input username "iqbalgunawan403@gmail.com"
-    And user input password "14Februari"
+    And user input username "admin"
+    And user input password "admin"
     And user click login button
     And user will see icon name of user
     And user click next page
@@ -36,8 +36,8 @@ Feature: Test Automation Web
   Scenario: Test detail product and add to cart normal
       Given : open web login page
       And user click button login
-      And user input username "iqbalgunawan403@gmail.com"
-      And user input password "14Februari"
+      And user input username "admin"
+      And user input password "admin"
       And user click login button
       And user will see icon name of user
       And click detail item "Samsung galaxy s6"
@@ -47,8 +47,8 @@ Feature: Test Automation Web
       Scenario: Test detail categories
         Given : open web login page
         And user click button login
-        And user input username "iqbalgunawan403@gmail.com"
-        And user input password "14Februari"
+        And user input username "admin"
+        And user input password "admin"
         And user click login button
         And user will see icon name of user
         And user click phones button
